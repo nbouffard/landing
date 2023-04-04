@@ -1,0 +1,50 @@
+footer {
+  background-color: aliceblue;
+  box-shadow: 0 0 10px gray;
+  width: 100%;
+  position: static;
+  /* bottom: -140px; */
+}
+
+footer h3 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer ul > li {
+  display: inline;
+}
+
+footer ul {
+  text-align: center;
+  padding-left: 0;
+  margin: 0;
+}
+
+i {
+  color: black;
+  font-size: 25px;
+  padding: 7px;
+}
+
+i:hover {
+  color: #00e1ff;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+p i {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+}
+
+@media(max-width: 1200px){
+  footer {
+    position: sticky;
+  }
+}

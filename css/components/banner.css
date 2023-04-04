@@ -1,0 +1,36 @@
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  object-fit: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-shadow: 0 0 2px white; */
+}
+
+.banner h1{
+  margin: 0 auto;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.banner p {
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 0 0 8px rgb(169, 165, 165);
+}
+
+@media(max-width: 500px){
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px white;
+  }
+}
