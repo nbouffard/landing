@@ -2,8 +2,6 @@ footer {
   background-color: aliceblue;
   box-shadow: 0 0 10px gray;
   width: 100%;
-  position: static;
-  /* bottom: -140px; */
 }
 
 footer h3 {
